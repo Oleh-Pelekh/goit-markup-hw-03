@@ -81,10 +81,6 @@ img {
   align-items: center;
 }
 
-.header-container {
-  border-bottom: 1px solid #ececec;
-}
-
 /*---------------header---------------*/
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -95,9 +91,9 @@ img {
   color: var(--hover-color);
 }
 
-/* .header-container {
+.page-header {
   border: 1px solid #ececec;
-} */
+}
 
 .logo-black {
   margin-right: 93px;
@@ -221,6 +217,7 @@ img {
   padding-right: 32px;
   padding-bottom: 10px;
   padding-left: 32px;
+  width: auto;
 }
 
 .button-hero:hover,
