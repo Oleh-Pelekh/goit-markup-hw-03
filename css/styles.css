@@ -216,6 +216,7 @@ img {
 }
 
 .button-hero {
+  align-content: center;
   padding-top: 10px;
   padding-right: 32px;
   padding-bottom: 10px;
