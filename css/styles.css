@@ -323,7 +323,8 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team .text {
+.team .text,
+.text-name {
   font-size: 16px;
   line-height: 0.84;
   letter-spacing: 0.03em;
@@ -402,9 +403,11 @@ img {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-bottom: 4px;
 }
 
-.projects .text {
+.projects .text,
+.text-name {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -428,15 +431,11 @@ img {
   padding-left: 24px;
   padding-top: 20px;
   padding-right: 24px;
+  padding-bottom: 20px;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   background: #ffffff;
-}
-
-.content {
-  justify-content: flex-start;
-  padding-bottom: 20px;
 }
 
 /*---------------footer---------------*/
