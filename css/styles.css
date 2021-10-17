@@ -181,10 +181,8 @@ img {
 }
 
 .hero {
-  display: flex;
-  justify-content: center;
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
   text-align: center;
 }
 
@@ -283,6 +281,10 @@ img {
 .directions {
   display: flex;
   margin-left: -30px;
+}
+
+.directions-title {
+  padding-top: 0;
 }
 
 .directions-images {
@@ -487,4 +489,28 @@ img {
 .footer-contacts:focus {
   text-decoration: none;
   color: var(--hover-color);
+}
+
+.footer-logo {
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.contacts {
+  display: flex;
+  padding-bottom: 9px;
+}
+
+.footer-adress {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts-footer {
+  padding-bottom: 9px;
+}
+
+.tel {
+  padding-bottom: 60px;
 }
