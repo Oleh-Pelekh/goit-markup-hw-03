@@ -204,11 +204,6 @@ img {
   top: 430px;
 }
 
-.hero-btn {
-  display: flex;
-  justify-content: center;
-}
-
 .button-hero {
   align-content: center;
   padding-top: 10px;
