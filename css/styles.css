@@ -138,9 +138,15 @@ img {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
+
 .menu-item,
 .contacts-item:not(:last-child) {
   margin-right: 40px;
+}
+
+.navigation {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 /* contacts-link */
@@ -160,6 +166,8 @@ img {
 
 .header-contacts {
   margin-left: auto;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 /*---------------hero---------------*/
@@ -299,18 +307,21 @@ img {
 
 .team .text {
   text-align: center;
-  padding-bottom: 30px;
 }
 
 .title {
   text-align: center;
-  margin-top: 30px;
   margin-bottom: 10px;
 }
 
 .team {
   display: flex;
   margin-left: -30px;
+}
+
+.team-info {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-images {
@@ -478,13 +489,12 @@ img {
 
 .footer-logo {
   display: flex;
-  padding-top: 60px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
-.contacts {
+.contacts .adress {
   display: flex;
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 
 .footer-adress {
@@ -493,9 +503,18 @@ img {
 }
 
 .contacts-footer {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 
-.tel {
+.page-footer {
+  padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.contacts .adress {
+  display: inline-block;
+}
+
+.tyty {
+  margin-bottom: 9px;
 }
